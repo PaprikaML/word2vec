@@ -1,6 +1,12 @@
 Tools for computing distributed representtion of words
 ------------------------------------------------------
 
+Quick Start
+1. Download the code: svn checkout http://word2vec.googlecode.com/svn/trunk/
+2. Run 'make' to compile word2vec tool
+3. Run the demo scripts: ./demo-word.sh and ./demo-phrases.sh
+
+
 We provide an implementation of the Continuous Bag-of-Words (CBOW) and the Skip-gram model (SG), as well as several demo scripts.
 
 Given a text corpus, the word2vec tool learns a vector for every word in the vocabulary using the Continuous
